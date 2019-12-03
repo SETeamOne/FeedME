@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Test</string>
+    <string name="home_title1">Welcome to</string>
+    <string name="home_title2">FeedME</string>
+    <string name="home_btn1">Login</string>
+    <string name="home_btn2">Sign up</string>
+</resources>
