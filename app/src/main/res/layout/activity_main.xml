@@ -1,73 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/ConstraintLayOut"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:background="@mipmap/home_page"
-    android:alpha="0.9">
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:id="@+id/ConstraintLayOut"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent"
+                                             tools:context=".MainActivity"
+                                             android:background="@mipmap/home_page"
+                                             android:alpha="0.9">
 
     <TextView
-        android:id="@+id/tv_home_title1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="38dp"
-        android:layout_marginTop="186dp"
-        android:fontFamily="@font/msyh"
-        android:text="@string/home_title1"
-        android:textSize="28sp"
-        android:textColor="@color/white"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+            android:id="@+id/tv_home_title1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="38dp"
+            android:layout_marginLeft="38dp"
+            android:layout_marginTop="186dp"
+            android:fontFamily="@font/msyh"
+            android:text="@string/home_title1"
+            android:textSize="28sp"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
 
     <TextView
-        android:id="@+id/tv_home_title2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="205dp"
-        android:layout_marginTop="186dp"
-        android:fontFamily="@font/hwls"
-        android:text="@string/home_title2"
-        android:textSize="40sp"
-        android:textColor="@color/white"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+            android:id="@+id/tv_home_title2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="205dp"
+            android:layout_marginLeft="205dp"
+            android:layout_marginTop="186dp"
+            android:fontFamily="@font/hwls"
+            android:text="@string/home_title2"
+            android:textSize="40sp"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
 
     <RelativeLayout
-        android:id="@+id/relativeLayout2"
-        android:layout_width="0dp"
-        android:layout_height="737dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+            android:id="@+id/relativeLayout2"
+            android:layout_width="0dp"
+            android:layout_height="737dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
 
         <Button
-            android:id="@+id/btn_home_log"
-            android:layout_width="335dp"
-            android:layout_height="46dp"
-            android:layout_marginLeft="38dp"
-            android:layout_marginTop="269dp"
-            android:fontFamily="@font/msyh"
-            android:text="@string/home_btn1"
-            android:textSize="16sp"
-            android:textAllCaps="false"
-            android:textColor="@color/bluegreen"
-            android:background="@drawable/home_btn1_bg"/>
+                android:id="@+id/btn_home_log"
+                android:layout_width="335dp"
+                android:layout_height="46dp"
+                android:layout_marginStart="38dp"
+                android:layout_marginLeft="38dp"
+                android:layout_marginTop="269dp"
+                android:fontFamily="@font/msyh"
+                android:text="@string/home_btn1"
+                android:textSize="16sp"
+                android:textAllCaps="false"
+                android:textColor="@color/bluegreen"
+                android:background="@drawable/home_btn1_bg"/>
 
         <Button
-            android:id="@+id/btn_home_reg"
-            android:layout_width="335dp"
-            android:layout_height="46dp"
-            android:layout_marginLeft="38dp"
-            android:layout_marginTop="328dp"
-            android:fontFamily="@font/msyh"
-            android:text="@string/home_btn2"
-            android:textSize="16sp"
-            android:textAllCaps="false"
-            android:textColor="@color/white"
-            android:background="@drawable/home_btn2_bg"/>
+                android:id="@+id/btn_home_reg"
+                android:layout_width="335dp"
+                android:layout_height="46dp"
+                android:layout_marginStart="38dp"
+                android:layout_marginLeft="38dp"
+                android:layout_marginTop="328dp"
+                android:fontFamily="@font/msyh"
+                android:text="@string/home_btn2"
+                android:textSize="16sp"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:background="@drawable/home_btn2_bg"/>
     </RelativeLayout>
 
 
