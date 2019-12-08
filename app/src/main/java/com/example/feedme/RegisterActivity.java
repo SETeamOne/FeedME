@@ -2,13 +2,14 @@ package com.example.feedme;
 
 import android.content.Intent;
 import android.os.Build;
-import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
 
 import java.util.Objects;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class RegisterActivity extends AppCompatActivity {
     private Button mBtn_Register;
@@ -24,7 +25,6 @@ public class RegisterActivity extends AppCompatActivity {
         mBtn_Cancel = findViewById(R.id.btn_cancel);
         mBtn_Register.setOnClickListener(new ButtonListen());
         mBtn_Cancel.setOnClickListener(new ButtonListen());
-        Objects.requireNonNull(getSupportActionBar()).hide();
     }
 
     private class ButtonListen implements View.OnClickListener {

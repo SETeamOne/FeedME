@@ -2,7 +2,7 @@ package com.example.feedme;
 
 import android.content.Intent;
 import android.os.Build;
-import androidx.appcompat.app.AppCompatActivity;
+
 import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
@@ -10,22 +10,21 @@ import android.widget.Button;
 
 import java.util.Objects;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 public class loginActivity extends AppCompatActivity {
     private Button mBtn_Login;
     private Button mBtn_Cancel;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
-            getWindow().addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
-        }
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         mBtn_Login = findViewById(R.id.btn_login);
         mBtn_Cancel = findViewById(R.id.btn_cancel);
         mBtn_Login.setOnClickListener(new ButtonListener());
         mBtn_Cancel.setOnClickListener(new ButtonListener());
-        Objects.requireNonNull(getSupportActionBar()).hide();
     }
 
     private class ButtonListener implements View.OnClickListener {
@@ -34,7 +33,7 @@ public class loginActivity extends AppCompatActivity {
             Intent intent = null;
             switch (v.getId()) {
                 case R.id.btn_login:
-                    intent = new Intent(loginActivity.this, RegisterActivity.class);
+                    intent = new Intent(loginActivity.this, NavigationActivity.class);
                     startActivity(intent);
                     break;
 

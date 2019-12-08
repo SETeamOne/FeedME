@@ -2,10 +2,7 @@ package com.example.feedme;
 
 import android.content.Intent;
 import android.os.Handler;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.util.SparseArray;
 import android.util.SparseIntArray;
 import android.view.LayoutInflater;
@@ -28,6 +25,10 @@ import java.util.ArrayList;
 import java.util.Locale;
 
 import com.flipboard.bottomsheet.BottomSheetLayout;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import se.emilsjolander.stickylistheaders.StickyListHeadersListView;
 
 public class ShoppingCartActivity extends AppCompatActivity implements View.OnClickListener{

@@ -2,13 +2,14 @@ package com.example.feedme;
 
 import android.content.Intent;
 import android.os.Build;
-import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
 
 import java.util.Objects;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
     private Button mBtn_home_log;
@@ -24,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
         mBtn_home_log = findViewById(R.id.btn_home_log);
         mBtn_home_reg = findViewById(R.id.btn_home_reg);
         setListeners();
-        Objects.requireNonNull(getSupportActionBar()).hide();
     }
 
     public void setListeners() {
