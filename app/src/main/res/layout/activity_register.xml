@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
 
-    android:layout_width="match_parent"
+              xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@mipmap/login_register"
     android:alpha="100"
@@ -14,7 +14,7 @@
 
 
         <EditText
-            android:id="@+id/et_phone"
+            android:id="@+id/et_username"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginTop="5dp"
@@ -108,16 +108,16 @@
             android:textSize="22sp" />
 
         <Button
-            android:id="@+id/btn_cancel"
-            android:layout_width="180dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="30dp"
-            android:layout_toRightOf="@id/btn_login"
-            android:text="Cancel"
-            android:layout_toEndOf="@id/btn_register"
-            android:textColor="@android:color/black"
-            android:textSize="22sp"
-            android:background="@drawable/home_btn2_bg"/>
+                android:id="@+id/btn_cancel"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_toRightOf="@id/btn_login"
+                android:text="Cancel"
+                android:layout_toEndOf="@id/btn_register"
+                android:textColor="@android:color/black"
+                android:textSize="22sp"
+                android:background="@drawable/home_btn2_bg" tools:ignore="NotSibling"/>
 
     </RelativeLayout>
 

@@ -1,11 +1,15 @@
 package com.example.feedme;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
+import android.view.KeyEvent;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
+import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.Objects;
 
@@ -41,12 +45,48 @@ public class MainActivity extends AppCompatActivity {
                 case R.id.btn_home_log:
                     intent = new Intent(MainActivity.this, loginActivity.class);
                     startActivity(intent);
+                    finish();
                     break;
                 case R.id.btn_home_reg:
                     intent = new Intent(MainActivity.this, RegisterActivity.class);
                     startActivity(intent);
+                    finish();
                     break;
             }
         }
+    }
+
+    @Override
+    public boolean onKeyDown( int keyCode, KeyEvent event) {
+        if (keyCode == KeyEvent.KEYCODE_BACK){
+            new AlertDialog.Builder( this )
+                    .setTitle( " exit " )
+                    .setMessage( " Are you sure exit? " )
+                    .setPositiveButton( " Yes " , new DialogInterface.OnClickListener() {
+
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+
+                            Intent exit = new Intent(Intent.ACTION_MAIN);
+                            exit.addCategory(Intent.CATEGORY_HOME);
+                            exit.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                            startActivity(exit);
+                            System.exit( 0 );
+                        }
+                    })
+                    .setNegativeButton( " Cancel " , new DialogInterface.OnClickListener() {
+
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+
+                            dialog.cancel();
+                        }
+                    })
+                    .show();
+
+            return true ;
+        }
+
+        return super.onKeyDown(keyCode, event);
     }
 }

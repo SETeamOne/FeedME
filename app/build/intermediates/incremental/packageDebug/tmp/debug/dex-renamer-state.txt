@@ -1,0 +1,4 @@
+#Sun Dec 08 22:13:59 KST 2019
+base.0=D\:\\ding\\KAIST\\Courses\\CS350 Introduction to Software Engineering\\Project 3\\FeedME\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
