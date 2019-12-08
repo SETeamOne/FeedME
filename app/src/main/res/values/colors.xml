@@ -8,4 +8,5 @@
     <color name="SolidCircle">#bfbfbf</color>
     <color name="circleBorder">#50FFFFFF</color>
     <color name="yellow">#ffc640</color>
+    <color name="layout_border">#a3a3a3</color>
 </resources>
