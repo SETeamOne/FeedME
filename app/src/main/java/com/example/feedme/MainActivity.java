@@ -1,10 +1,14 @@
 package com.example.feedme;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
+import android.os.Build;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.Button;
+
+import java.util.Objects;
 
 public class MainActivity extends AppCompatActivity {
     private Button mBtn_home_log;
@@ -12,11 +16,15 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+            getWindow().addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+        }
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         mBtn_home_log = findViewById(R.id.btn_home_log);
         mBtn_home_reg = findViewById(R.id.btn_home_reg);
         setListeners();
+        Objects.requireNonNull(getSupportActionBar()).hide();
     }
 
     public void setListeners() {
