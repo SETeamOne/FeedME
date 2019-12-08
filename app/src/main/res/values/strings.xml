@@ -7,4 +7,7 @@
 
     <string name="name">Profile</string>
     <string name="address">Optional</string>
+
+    <string name="restaurant_name">ListDisplay</string>
+    <string name="action_setting">Settings</string>
 </resources>
