@@ -80,7 +80,7 @@ public class NavigationActivity extends AppCompatActivity {
         mFragmentList.add(new ShoppingCartFragment());
         mFragmentList.add(new MenuFragment());
         mFragmentList.add(new InboxFragment());
-        mFragmentList.add(new PofileFragment());
+        mFragmentList.add(new ProfileFragment());
 
         setFragment(0);
     }

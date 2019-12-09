@@ -21,7 +21,6 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.Locale;
@@ -62,9 +61,8 @@ public class ShoppingCartActivity extends AppCompatActivity implements View.OnCl
             getWindow().addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
         }
         super.onCreate(savedInstanceState);
-        Objects.requireNonNull(getSupportActionBar()).hide();
         setContentView(R.layout.activity_shopping_cart);
-        nf = NumberFormat.getCurrencyInstance(Locale.US);
+        nf = NumberFormat.getCurrencyInstance(Locale.KOREA);
         nf.setMaximumFractionDigits(2);
         mHandler = new Handler(getMainLooper());
         dataList = GoodsItem.getGoodsList();
@@ -199,7 +197,8 @@ public class ShoppingCartActivity extends AppCompatActivity implements View.OnCl
                 clearCart();
                 break;
             case R.id.tvSubmit:
-                Toast.makeText(ShoppingCartActivity.this, "settle accounts", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(ShoppingCartActivity.this,PaymentActivity.class);
+                startActivity(intent);
                 break;
             default:
                 break;

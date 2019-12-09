@@ -64,7 +64,7 @@ public class GoodsItem{
                         img = R.drawable.grade4_fried_chicken;
                         break;
                 }
-                item = new GoodsItem(100*i+j,Math.random()*10,typeFood,i,typeName,img);
+                item = new GoodsItem(100*i+j,Math.random()*10000,typeFood,i,typeName,img);
                 goodsList.add(item);
             }
             typeList.add(item);

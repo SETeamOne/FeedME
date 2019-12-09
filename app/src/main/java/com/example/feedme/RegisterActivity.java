@@ -37,7 +37,6 @@ public class RegisterActivity extends AppCompatActivity {
         mBtn_Cancel = findViewById(R.id.btn_cancel);
         mBtn_Register.setOnClickListener(new ButtonListen());
         mBtn_Cancel.setOnClickListener(new ButtonListen());
-        Objects.requireNonNull(getSupportActionBar()).hide();
 
         et_username = findViewById(R.id.et_username);
         et_password = findViewById(R.id.et_password);

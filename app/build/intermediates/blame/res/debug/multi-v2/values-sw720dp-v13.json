@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\ding\\KAIST\\Courses\\CS350 Introduction to Software Engineering\\Project 3\\Android\\FeedME\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+            "outputFile": "D:\\FeedME\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw720dp-v13\\values-sw720dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\10163\\.gradle\\caches\\transforms-2\\files-2.1\\8f1126b18fbcecdfd2f3efbc29a7d37b\\jetified-bottomsheet-core-1.5.1\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "source": "C:\\Users\\ASUS\\.gradle\\caches\\transforms-2\\files-2.1\\9ef0d917be7dcee60f34901d8c6a299e\\jetified-bottomsheet-core-1.5.1\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
