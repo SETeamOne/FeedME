@@ -49,10 +49,9 @@ public class loginActivity extends AppCompatActivity {
 
     }
 
-    private boolean userLogin(){
+    private void userLogin(){
         final String userId = et_userId.getText().toString().trim();
         final String password = et_password.getText().toString().trim();
-        boolean isLogin = false;
 
         // progressBar
 
@@ -76,8 +75,8 @@ public class loginActivity extends AppCompatActivity {
                                         getApplicationContext(),
                                         "User login successful",
                                         Toast.LENGTH_LONG ).show();
-                                startActivity(new Intent(loginActivity.this, RegisterActivity.class));
-                                finish();
+                                startActivity(new Intent(loginActivity.this, ShoppingCartActivity.class));
+                                //finish();
                             }else{
                                 Toast.makeText(
                                         getApplicationContext(),
@@ -110,7 +109,6 @@ public class loginActivity extends AppCompatActivity {
         };
 
         RequestHandler.getInstance(this).addToRequestQueue(stringRequest);
-        return isLogin;
     }
 
     private class ButtonListener implements View.OnClickListener {

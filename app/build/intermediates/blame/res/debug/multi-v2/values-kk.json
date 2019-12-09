@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\ding\\KAIST\\Courses\\CS350 Introduction to Software Engineering\\Project 3\\FeedME\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-kk\\values-kk.xml",
+            "outputFile": "D:\\ding\\KAIST\\Courses\\CS350 Introduction to Software Engineering\\Project 3\\Android\\FeedME\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-kk\\values-kk.xml",
             "map": [
                 {
                     "source": "C:\\Users\\10163\\.gradle\\caches\\transforms-2\\files-2.1\\7df26908078c74ff4eeaf46e7b6b476c\\appcompat-1.0.0\\res\\values-kk\\values-kk.xml",

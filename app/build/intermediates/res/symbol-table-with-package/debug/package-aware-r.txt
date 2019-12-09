@@ -1465,7 +1465,7 @@ layout item_header_view
 layout item_selected_goods
 layout item_type
 layout layout_bottom_sheet
-layout layout_mian_shopping_cart
+layout layout_main_shopping_cart
 layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include
 layout notification_action
@@ -1571,7 +1571,6 @@ style Animation_AppCompat_DropDownUp
 style Animation_AppCompat_Tooltip
 style Animation_Design_BottomSheetDialog
 style AppTheme
-style AppTheme_NoActionBar
 style Base_AlertDialog_AppCompat
 style Base_AlertDialog_AppCompat_Light
 style Base_Animation_AppCompat_Dialog

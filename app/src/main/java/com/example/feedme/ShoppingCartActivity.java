@@ -1,6 +1,7 @@
 package com.example.feedme;
 
 import android.content.Intent;
+import android.os.Build;
 import android.os.Handler;
 import android.os.Bundle;
 import android.util.SparseArray;
@@ -8,6 +9,7 @@ import android.util.SparseIntArray;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.WindowManager;
 import android.view.animation.AccelerateInterpolator;
 import android.view.animation.AlphaAnimation;
 import android.view.animation.Animation;
@@ -23,6 +25,7 @@ import android.widget.Toast;
 import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.Locale;
+import java.util.Objects;
 
 import com.flipboard.bottomsheet.BottomSheetLayout;
 
@@ -51,15 +54,19 @@ public class ShoppingCartActivity extends AppCompatActivity implements View.OnCl
     private TypeAdapter typeAdapter;
 
     private NumberFormat nf;
-    private Handler mHanlder;
+    private Handler mHandler;
     private Button mBtn_back;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+            getWindow().addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+        }
         super.onCreate(savedInstanceState);
+        Objects.requireNonNull(getSupportActionBar()).hide();
         setContentView(R.layout.activity_shopping_cart);
         nf = NumberFormat.getCurrencyInstance(Locale.US);
         nf.setMaximumFractionDigits(2);
-        mHanlder = new Handler(getMainLooper());
+        mHandler = new Handler(getMainLooper());
         dataList = GoodsItem.getGoodsList();
         typeList = GoodsItem.getTypeList();
         selectedList = new SparseArray<>();
@@ -166,7 +173,7 @@ public class ShoppingCartActivity extends AppCompatActivity implements View.OnCl
 
             @Override
             public void onAnimationEnd(final Animation animation) {
-                mHanlder.postDelayed(new Runnable() {
+                mHandler.postDelayed(new Runnable() {
                     @Override
                     public void run() {
                         anim_mask_layout.removeView(v);

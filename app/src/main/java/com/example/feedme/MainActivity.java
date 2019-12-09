@@ -13,8 +13,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.Objects;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 public class MainActivity extends AppCompatActivity {
     private Button mBtn_home_log;
     private Button mBtn_home_reg;
@@ -25,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
             getWindow().addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
         }
         super.onCreate(savedInstanceState);
+        Objects.requireNonNull(getSupportActionBar()).hide();
         setContentView(R.layout.activity_main);
         mBtn_home_log = findViewById(R.id.btn_home_log);
         mBtn_home_reg = findViewById(R.id.btn_home_reg);
