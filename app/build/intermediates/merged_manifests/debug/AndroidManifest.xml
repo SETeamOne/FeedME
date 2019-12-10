@@ -22,7 +22,9 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.feedme.EditProfileActivity" />
         <activity android:name="com.example.feedme.PaymentActivity" />
+        <activity android:name="com.example.feedme.ShoppingCartActivity" />
         <activity android:name="com.example.feedme.NavigationActivity" />
         <activity android:name="com.example.feedme.RegisterActivity" />
         <activity android:name="com.example.feedme.LoginActivity" />

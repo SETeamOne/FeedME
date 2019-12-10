@@ -4,22 +4,22 @@
     <item
         android:id="@+id/exploreFragment"
         android:title="explore"
-        android:icon="@mipmap/explore"/>
+        android:icon="@drawable/explore"/>
     <item
         android:id="@+id/shoppingCartFragment"
         android:title="shopping cart"
-        android:icon="@mipmap/shopping_cart"/>
+        android:icon="@drawable/shopping_cart"/>
     <item
         android:id="@+id/menuFragment"
         android:title="menu"
-        android:icon="@mipmap/menu" />
+        android:icon="@drawable/menu" />
     <item
         android:id="@+id/inboxFragment"
         android:title="inbox"
-        android:icon="@mipmap/inbox" />
+        android:icon="@drawable/inbox" />
     <item
         android:id="@+id/profileFragment"
         android:title="profile"
-        android:icon="@mipmap/profile"/>
+        android:icon="@drawable/profile"/>
 
 </menu>

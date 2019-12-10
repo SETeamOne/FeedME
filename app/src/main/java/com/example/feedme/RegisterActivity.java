@@ -32,7 +32,6 @@ public class RegisterActivity extends AppCompatActivity {
             getWindow().addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
         }
         super.onCreate(savedInstanceState);
-        Objects.requireNonNull(getSupportActionBar()).hide();
         setContentView(R.layout.activity_register);
         mBtn_Register = findViewById(R.id.btn_register);
         mBtn_Cancel = findViewById(R.id.btn_cancel);

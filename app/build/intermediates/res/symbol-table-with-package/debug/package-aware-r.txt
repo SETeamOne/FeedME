@@ -1067,6 +1067,7 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable explore
+drawable explore_btn_bg
 drawable favorite
 drawable fork
 drawable grade1_pizza
@@ -1100,6 +1101,7 @@ drawable icon_cart
 drawable inbox
 drawable login_btn_bg
 drawable login_et_bg
+drawable menu
 drawable mtrl_snackbar_background
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
@@ -1119,6 +1121,7 @@ drawable payment
 drawable profile
 drawable register_et_bg
 drawable selector
+drawable shopping_cart
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable yellowbox
@@ -1169,6 +1172,8 @@ id bottomSheetLayout
 id box
 id btn_back
 id btn_cancel
+id btn_edit_cancel
+id btn_edit_confirm
 id btn_home_log
 id btn_home_reg
 id btn_login
@@ -1298,12 +1303,13 @@ id percent
 id pin
 id profile
 id profileFragment
+id profile_edit
 id profile_header
 id profile_pic
-id profile_progress
 id profile_progress_bar
 id progress_circular
 id progress_horizontal
+id promo_btn
 id promo_button
 id promo_ico
 id radio
@@ -1376,7 +1382,6 @@ id textView3
 id textView4
 id textView5
 id textView6
-id textView7
 id text_input_password_toggle
 id textinput_counter
 id textinput_error
@@ -1468,6 +1473,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_edit_profile
 layout activity_login
 layout activity_main
 layout activity_navigation
@@ -1489,7 +1495,6 @@ layout design_navigation_item_subheader
 layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
-layout fragment_edit_profile
 layout fragment_explore
 layout fragment_inbox
 layout fragment_menu
@@ -1531,11 +1536,7 @@ mipmap grade4_fried_chicken
 mipmap home_page
 mipmap ic_launcher
 mipmap ic_launcher_round
-mipmap inbox
 mipmap login_register
-mipmap menu
-mipmap profile
-mipmap shopping_cart
 navigation feedme_navigation
 string abc_action_bar_home_description
 string abc_action_bar_up_description
@@ -1601,6 +1602,7 @@ string path_password_eye_mask_visible
 string path_password_strike_through
 string search_menu_title
 string status_bar_notification_info_overflow
+string title_activity_edit_profile
 string title_activity_new_navagation
 string title_activity_new_navigation
 string title_explore
@@ -1613,6 +1615,9 @@ style Animation_AppCompat_DropDownUp
 style Animation_AppCompat_Tooltip
 style Animation_Design_BottomSheetDialog
 style AppTheme
+style AppTheme_AppBarOverlay
+style AppTheme_NoActionBar
+style AppTheme_PopupOverlay
 style Base_AlertDialog_AppCompat
 style Base_AlertDialog_AppCompat_Light
 style Base_Animation_AppCompat_Dialog
