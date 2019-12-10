@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = null;
             switch (v.getId()) {
                 case R.id.btn_home_log:
-                    intent = new Intent(MainActivity.this, loginActivity.class);
+                    intent = new Intent(MainActivity.this, LoginActivity.class);
                     startActivity(intent);
                     finish();
                     break;
@@ -59,9 +59,9 @@ public class MainActivity extends AppCompatActivity {
     public boolean onKeyDown( int keyCode, KeyEvent event) {
         if (keyCode == KeyEvent.KEYCODE_BACK){
             new AlertDialog.Builder( this )
-                    .setTitle( " exit " )
-                    .setMessage( " Are you sure exit? " )
-                    .setPositiveButton( " Yes " , new DialogInterface.OnClickListener() {
+                    .setTitle( "Exit" )
+                    .setMessage("Exit FeedME?" )
+                    .setNegativeButton( "Yes" , new DialogInterface.OnClickListener() {
 
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
                             System.exit( 0 );
                         }
                     })
-                    .setNegativeButton( " Cancel " , new DialogInterface.OnClickListener() {
+                    .setPositiveButton( "No" , new DialogInterface.OnClickListener() {
 
                         @Override
                         public void onClick(DialogInterface dialog, int which) {

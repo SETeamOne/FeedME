@@ -634,6 +634,7 @@ color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
 color background_material_light
+color black
 color bluegreen
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
@@ -1097,6 +1098,8 @@ drawable ic_promo
 drawable ic_tips
 drawable icon_cart
 drawable inbox
+drawable login_btn_bg
+drawable login_et_bg
 drawable mtrl_snackbar_background
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
@@ -1114,16 +1117,18 @@ drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable payment
 drawable profile
+drawable register_et_bg
 drawable selector
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable yellowbox
+font arial
 font hwls
 font msyh
 id ALT
 id CTRL
-id ConstraintLayOut
 id FUNCTION
+id LinearLayout
 id META
 id SHIFT
 id SYM
@@ -1303,6 +1308,7 @@ id promo_button
 id promo_ico
 id radio
 id ratingBar
+id relativeLayout1
 id relativeLayout2
 id res_ico
 id restaurant_button
@@ -1397,7 +1403,9 @@ id tvSubmit
 id tvTips
 id tv_home_title1
 id tv_home_title2
+id tv_login_title
 id tv_password
+id tv_register_title
 id tv_userId
 id type
 id typeRecyclerView
@@ -1465,6 +1473,7 @@ layout activity_main
 layout activity_navigation
 layout activity_payment
 layout activity_register
+layout activity_register_success
 layout activity_shopping_cart
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

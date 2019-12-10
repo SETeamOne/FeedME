@@ -9,6 +9,7 @@
         android:targetSdkVersion="28" />
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -23,9 +24,8 @@
         android:theme="@style/AppTheme" >
         <activity android:name="com.example.feedme.PaymentActivity" />
         <activity android:name="com.example.feedme.NavigationActivity" />
-        <activity android:name="com.example.feedme.ShoppingCartActivity" />
         <activity android:name="com.example.feedme.RegisterActivity" />
-        <activity android:name="com.example.feedme.loginActivity" />
+        <activity android:name="com.example.feedme.LoginActivity" />
         <activity android:name="com.example.feedme.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

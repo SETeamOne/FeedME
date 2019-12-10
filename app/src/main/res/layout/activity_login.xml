@@ -1,76 +1,99 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
 
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+              xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@mipmap/login_register"
-    android:alpha="100"
+    android:alpha="0.75"
     android:orientation="vertical">
 
+    <TextView
+            android:id="@+id/tv_login_title"
+            android:layout_alignBaseline="@+id/tv_home_title1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="60dp"
+            android:fontFamily="@font/hwls"
+            android:text="@string/home_title2"
+            android:textSize="36sp"
+            android:textColor="@color/black"/>
+
     <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_marginTop="80dp">
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="60dp">
 
         <TextView
-            android:id="@+id/tv_userId"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_alignParentLeft="true"
-            android:layout_marginLeft="5dp"
-            android:gravity="center"
-            android:text="User ID"
-            android:textColor="#000"
-            android:textSize="17sp" />
+                android:id="@+id/tv_userId"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="18dp"
+                android:gravity="top"
+                android:text="User ID"
+                android:fontFamily="@font/arial"
+                android:textColor="@color/black"
+                android:textSize="13sp"/>
 
         <EditText
-            android:id="@+id/et_userId"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp"
-            android:layout_toRightOf="@id/tv_userId"
-            android:gravity="left|center"
-            android:hint="Please input your ID"
-            android:inputType="number"
-            android:maxLength="11"
-            android:textColor="#000"
-            android:textColorHint="@android:color/darker_gray"
-            android:textSize="17sp" />
+                android:id="@+id/et_userId"
+                android:layout_width="324dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginBottom="5dp"
+                android:gravity="bottom"
+                android:inputType="number"
+                android:maxLength="11"
+                android:textColor="@android:color/black"
+                android:textAlignment="viewStart"
+                android:background="@drawable/login_et_bg"
+                android:paddingLeft="20dp"
+                android:paddingTop="4dp"
+                android:cursorVisible="false"
+                android:layout_alignLeft="@+id/tv_userId"
+                android:fontFamily="@font/arial"
+                android:textSize="16sp" tools:ignore="RtlCompat"/>
     </RelativeLayout>
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_marginTop="30dp">
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp">
 
         <TextView
             android:id="@+id/tv_password"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_alignParentLeft="true"
-            android:gravity="center"
+            android:gravity="top"
+            android:layout_marginLeft="18dp"
             android:text="Password"
+            android:fontFamily="@font/arial"
             android:textColor="@android:color/black"
-            android:textSize="17sp" />
+            android:textSize="13sp" />
 
 
         <EditText
-            android:id="@+id/et_password"
-            android:layout_width="330dp"
-            android:layout_height="match_parent"
-            android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp"
-            android:layout_marginLeft="5dp"
-            android:layout_toRightOf="@id/tv_password"
-            android:gravity="left|center"
-            android:hint="Please input your password"
-            android:inputType="textPassword"
-            android:textColor="@android:color/black"
-            android:textColorHint="@android:color/darker_gray"
-            android:textSize="17sp" />
+                android:id="@+id/et_password"
+                android:layout_width="324dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="0dp"
+                android:layout_alignLeft="@+id/tv_password"
+                android:paddingLeft="20dp"
+                android:paddingTop="4dp"
+                android:gravity="bottom"
+                android:fontFamily="@font/arial"
+                android:textAlignment="viewStart"
+                android:cursorVisible="false"
+                android:inputType="textPassword"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/darker_gray"
+                android:background="@drawable/login_et_bg"
+                android:textSize="16sp" tools:ignore="RtlCompat"/>
 
     </RelativeLayout>
 
@@ -81,24 +104,28 @@
 
         <Button
             android:id="@+id/btn_login"
-            android:layout_width="180dp"
+            android:layout_width="129dp"
             android:layout_height="wrap_content"
             android:text="Login"
-            android:layout_marginLeft="5dp"
+            android:layout_marginLeft="18dp"
             android:textColor="@android:color/black"
-            android:textSize="22sp"
-            android:background="@drawable/selector"/>
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:fontFamily="@font/msyh"
+            android:background="@drawable/login_btn_bg"/>
 
         <Button
             android:id="@+id/btn_cancel"
-            android:layout_width="180dp"
+            android:layout_width="129dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="30dp"
+            android:layout_marginLeft="66dp"
             android:layout_toRightOf="@id/btn_login"
             android:text="Cancel"
             android:textColor="@android:color/black"
-            android:textSize="22sp"
-            android:background="@drawable/selector"/>
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:fontFamily="@font/msyh"
+            android:background="@drawable/login_btn_bg"/>
 
     </RelativeLayout>
 </LinearLayout>
