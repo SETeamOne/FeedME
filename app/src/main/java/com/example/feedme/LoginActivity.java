@@ -1,7 +1,6 @@
 package com.example.feedme;
 
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
@@ -10,6 +9,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.Toast;
+
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import com.android.volley.AuthFailureError;
 import com.android.volley.Request;
@@ -29,18 +30,19 @@ public class LoginActivity extends AppCompatActivity {
     private EditText et_userId, et_password;
     private ProgressBar progressBar;
 
+    @RequiresApi(api = Build.VERSION_CODES.KITKAT)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
             getWindow().addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
         }
         super.onCreate(savedInstanceState);
+        Objects.requireNonNull(getSupportActionBar()).hide();
         setContentView(R.layout.activity_login);
         mBtn_Login = findViewById(R.id.btn_login);
         mBtn_Cancel = findViewById(R.id.btn_cancel);
         mBtn_Login.setOnClickListener(new ButtonListener());
         mBtn_Cancel.setOnClickListener(new ButtonListener());
-        Objects.requireNonNull(getSupportActionBar()).hide();
 
         et_userId = findViewById(R.id.et_userId);
         et_password = findViewById(R.id.et_password);
@@ -75,7 +77,7 @@ public class LoginActivity extends AppCompatActivity {
                                         getApplicationContext(),
                                         "User login successful",
                                         Toast.LENGTH_LONG ).show();
-                                startActivity(new Intent(LoginActivity.this, ShoppingCartActivity.class));
+                                startActivity(new Intent(LoginActivity.this, NavigationActivity.class));
                                 //finish();
                             }else{
                                 Toast.makeText(

@@ -40,8 +40,8 @@
             android:textColorHint="#999999"
             android:textSize="13sp"
             android:fontFamily="@font/arial"
-            android:cursorVisible="false"
             android:background="@drawable/register_et_bg"/>
+
     </RelativeLayout>
 
     <RelativeLayout
@@ -64,7 +64,6 @@
             android:textColorHint="#999999"
             android:fontFamily="@font/arial"
             android:textSize="13sp"
-            android:cursorVisible="false"
             android:background="@drawable/register_et_bg"/>
 
     </RelativeLayout>
@@ -89,7 +88,6 @@
             android:textColorHint="#999999"
             android:fontFamily="@font/arial"
             android:textSize="13sp"
-            android:cursorVisible="false"
             android:background="@drawable/register_et_bg"/>
 
     </RelativeLayout>
@@ -114,7 +112,6 @@
             android:textColorHint="@android:color/darker_gray"
             android:fontFamily="@font/arial"
             android:textSize="13sp"
-            android:cursorVisible="false"
             android:background="@drawable/register_et_bg"/>
 
     </RelativeLayout>

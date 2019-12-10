@@ -51,7 +51,6 @@
                 android:background="@drawable/login_et_bg"
                 android:paddingLeft="20dp"
                 android:paddingTop="4dp"
-                android:cursorVisible="false"
                 android:layout_alignLeft="@+id/tv_userId"
                 android:fontFamily="@font/arial"
                 android:textSize="16sp" tools:ignore="RtlCompat"/>
@@ -88,7 +87,6 @@
                 android:gravity="bottom"
                 android:fontFamily="@font/arial"
                 android:textAlignment="viewStart"
-                android:cursorVisible="false"
                 android:inputType="textPassword"
                 android:textColor="@android:color/black"
                 android:textColorHint="@android:color/darker_gray"
