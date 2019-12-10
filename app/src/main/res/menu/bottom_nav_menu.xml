@@ -1,31 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/action_explore"
-        android:icon="@drawable/explore"
-        android:title="Explore"
-        app:showAsAction="ifRoom" />
+        android:id="@+id/exploreFragment"
+        android:title="explore"
+        android:icon="@mipmap/explore"/>
     <item
-        android:id="@+id/action_favorites"
-        android:icon="@drawable/favorite"
-        android:title="Favorites"
-        app:showAsAction="ifRoom" />
+        android:id="@+id/shoppingCartFragment"
+        android:title="shopping cart"
+        android:icon="@mipmap/shopping_cart"/>
     <item
-        android:id="@+id/action_menu"
-        android:icon="@drawable/fork"
-        android:title="Menu"
-        app:showAsAction="ifRoom" />
+        android:id="@+id/menuFragment"
+        android:title="menu"
+        android:icon="@mipmap/menu" />
     <item
-        android:id="@+id/action_inbox"
-        android:icon="@drawable/inbox"
-        android:title="Inbox"
-        app:showAsAction="ifRoom" />
+        android:id="@+id/inboxFragment"
+        android:title="inbox"
+        android:icon="@mipmap/inbox" />
     <item
-        android:id="@+id/action_profile"
-        android:icon="@drawable/profile"
-        android:title="Profile"
-        app:showAsAction="ifRoom" />
+        android:id="@+id/profileFragment"
+        android:title="profile"
+        android:icon="@mipmap/profile"/>
 
 </menu>

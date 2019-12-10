@@ -21,8 +21,9 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.feedme.ShoppingCartActivity" />
+        <activity android:name="com.example.feedme.PaymentActivity" />
         <activity android:name="com.example.feedme.NavigationActivity" />
+        <activity android:name="com.example.feedme.ShoppingCartActivity" />
         <activity android:name="com.example.feedme.RegisterActivity" />
         <activity android:name="com.example.feedme.loginActivity" />
         <activity android:name="com.example.feedme.MainActivity" >
@@ -32,6 +33,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <provider
+            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="com.example.feedme.lifecycle-process"
+            android:exported="false"
+            android:multiprocess="true" />
     </application>
 
 </manifest>

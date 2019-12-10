@@ -70,7 +70,7 @@
             android:layout_height="match_parent"
             android:layout_marginRight="10dp"
             android:gravity="center"
-            android:text="Send out $20 up"
+            android:text="Send out ₩10000 up"
             android:textColor="#fff" />
         <TextView android:textColor="#fff"
             android:layout_width="120dp"

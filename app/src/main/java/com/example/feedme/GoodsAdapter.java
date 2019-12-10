@@ -29,7 +29,7 @@ public class GoodsAdapter extends BaseAdapter implements StickyListHeadersAdapte
     public GoodsAdapter(ArrayList<GoodsItem> dataList, ShoppingCartActivity mContext) {
         this.dataList = dataList;
         this.mContext = mContext;
-        nf = NumberFormat.getCurrencyInstance(Locale.US);
+        nf = NumberFormat.getCurrencyInstance(Locale.KOREA);
         nf.setMaximumFractionDigits(2);
         mInflater = LayoutInflater.from(mContext);
     }

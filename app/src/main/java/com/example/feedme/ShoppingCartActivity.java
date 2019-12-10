@@ -1,15 +1,13 @@
 package com.example.feedme;
 
 import android.content.Intent;
-import android.os.Build;
-import android.os.Handler;
 import android.os.Bundle;
+import android.os.Handler;
 import android.util.SparseArray;
 import android.util.SparseIntArray;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.WindowManager;
 import android.view.animation.AccelerateInterpolator;
 import android.view.animation.AlphaAnimation;
 import android.view.animation.Animation;
@@ -17,16 +15,14 @@ import android.view.animation.AnimationSet;
 import android.view.animation.LinearInterpolator;
 import android.view.animation.TranslateAnimation;
 import android.widget.AbsListView;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-import java.text.NumberFormat;
-import java.util.ArrayList;
-import java.util.Locale;
-import java.util.Objects;
 
 import com.flipboard.bottomsheet.BottomSheetLayout;
+
+import java.text.NumberFormat;
+import java.util.ArrayList;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -53,18 +49,14 @@ public class ShoppingCartActivity extends AppCompatActivity implements View.OnCl
     private TypeAdapter typeAdapter;
 
     private NumberFormat nf;
-    private Handler mHandler;
-    private Button mBtn_back;
+    private Handler mHanlder;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
-            getWindow().addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
-        }
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_shopping_cart);
-        nf = NumberFormat.getCurrencyInstance(Locale.KOREA);
+        nf = NumberFormat.getCurrencyInstance();
         nf.setMaximumFractionDigits(2);
-        mHandler = new Handler(getMainLooper());
+        mHanlder = new Handler(getMainLooper());
         dataList = GoodsItem.getGoodsList();
         typeList = GoodsItem.getTypeList();
         selectedList = new SparseArray<>();
@@ -84,16 +76,6 @@ public class ShoppingCartActivity extends AppCompatActivity implements View.OnCl
         bottomSheetLayout = (BottomSheetLayout) findViewById(R.id.bottomSheetLayout);
 
         listView = (StickyListHeadersListView) findViewById(R.id.itemListView);
-        mBtn_back = findViewById(R.id.btn_back);
-        mBtn_back.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(ShoppingCartActivity.this,NavigationActivity.class);
-                startActivity(intent);
-                finish();
-            }
-        });
-
 
         rvType.setLayoutManager(new LinearLayoutManager(this));
         typeAdapter = new TypeAdapter(this,typeList);
@@ -171,7 +153,7 @@ public class ShoppingCartActivity extends AppCompatActivity implements View.OnCl
 
             @Override
             public void onAnimationEnd(final Animation animation) {
-                mHandler.postDelayed(new Runnable() {
+                mHanlder.postDelayed(new Runnable() {
                     @Override
                     public void run() {
                         anim_mask_layout.removeView(v);
@@ -197,8 +179,12 @@ public class ShoppingCartActivity extends AppCompatActivity implements View.OnCl
                 clearCart();
                 break;
             case R.id.tvSubmit:
-                Intent intent = new Intent(ShoppingCartActivity.this,PaymentActivity.class);
-                startActivity(intent);
+                Intent intent1 = new Intent(ShoppingCartActivity.this,PaymentActivity.class);
+                startActivity(intent1);
+                break;
+            case R.id.btn_back:
+                Intent intent2 = new Intent(ShoppingCartActivity.this, NavigationActivity.class);
+                startActivity(intent2);
                 break;
             default:
                 break;
@@ -262,7 +248,7 @@ public class ShoppingCartActivity extends AppCompatActivity implements View.OnCl
 
         tvCount.setText(String.valueOf(count));
 
-        if(cost > 19.99){
+        if(cost > 9999.99){
             tvTips.setVisibility(View.GONE);
             tvSubmit.setVisibility(View.VISIBLE);
         }else{
