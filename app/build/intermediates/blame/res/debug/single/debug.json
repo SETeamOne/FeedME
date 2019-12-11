@@ -92,6 +92,10 @@
         "source": "C:\\Users\\ASUS\\.gradle\\caches\\transforms-2\\files-2.1\\c7eb9cd3508ac3959447c14fd76c9fb9\\material-1.0.0\\res\\color\\mtrl_chip_text_color.xml"
     },
     {
+        "merged": "D:\\FeedME\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_goobne.png.flat",
+        "source": "D:\\FeedME\\app\\src\\main\\res\\drawable-xhdpi\\goobne.png"
+    },
+    {
         "merged": "D:\\FeedME\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-mdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "C:\\Users\\ASUS\\.gradle\\caches\\transforms-2\\files-2.1\\7df26908078c74ff4eeaf46e7b6b476c\\appcompat-1.0.0\\res\\drawable-ldrtl-mdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
     },
@@ -268,12 +272,12 @@
         "source": "D:\\FeedME\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_food.png"
     },
     {
-        "merged": "D:\\FeedME\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxxhdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\caches\\transforms-2\\files-2.1\\7df26908078c74ff4eeaf46e7b6b476c\\appcompat-1.0.0\\res\\drawable-ldrtl-xxxhdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
-    },
-    {
         "merged": "D:\\FeedME\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_slide_in_bottom.xml.flat",
         "source": "C:\\Users\\ASUS\\.gradle\\caches\\transforms-2\\files-2.1\\7df26908078c74ff4eeaf46e7b6b476c\\appcompat-1.0.0\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "D:\\FeedME\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxxhdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\caches\\transforms-2\\files-2.1\\7df26908078c74ff4eeaf46e7b6b476c\\appcompat-1.0.0\\res\\drawable-ldrtl-xxxhdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
         "merged": "D:\\FeedME\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_design_password_eye.xml.flat",
@@ -476,6 +480,10 @@
         "source": "D:\\FeedME\\app\\src\\main\\res\\layout\\item_type.xml"
     },
     {
+        "merged": "D:\\FeedME\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_gosomi.png.flat",
+        "source": "D:\\FeedME\\app\\src\\main\\res\\drawable-xhdpi\\gosomi.png"
+    },
+    {
         "merged": "D:\\FeedME\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tooltip_frame_dark.xml.flat",
         "source": "C:\\Users\\ASUS\\.gradle\\caches\\transforms-2\\files-2.1\\7df26908078c74ff4eeaf46e7b6b476c\\appcompat-1.0.0\\res\\drawable\\tooltip_frame_dark.xml"
     },
@@ -632,6 +640,10 @@
         "source": "C:\\Users\\ASUS\\.gradle\\caches\\transforms-2\\files-2.1\\7df26908078c74ff4eeaf46e7b6b476c\\appcompat-1.0.0\\res\\drawable-watch-v20\\abc_dialog_material_background.xml"
     },
     {
+        "merged": "D:\\FeedME\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_naegadalg.png.flat",
+        "source": "D:\\FeedME\\app\\src\\main\\res\\drawable-xhdpi\\naegadalg.png"
+    },
+    {
         "merged": "D:\\FeedME\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_tips.png.flat",
         "source": "D:\\FeedME\\app\\src\\main\\res\\drawable-xxhdpi\\ic_tips.png"
     },
@@ -770,6 +782,10 @@
     {
         "merged": "D:\\FeedME\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_half_black_48dp.png.flat",
         "source": "C:\\Users\\ASUS\\.gradle\\caches\\transforms-2\\files-2.1\\7df26908078c74ff4eeaf46e7b6b476c\\appcompat-1.0.0\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_48dp.png"
+    },
+    {
+        "merged": "D:\\FeedME\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_domino_pizza.png.flat",
+        "source": "D:\\FeedME\\app\\src\\main\\res\\drawable-xhdpi\\domino_pizza.png"
     },
     {
         "merged": "D:\\FeedME\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
@@ -946,6 +962,10 @@
     {
         "merged": "D:\\FeedME\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
         "source": "C:\\Users\\ASUS\\.gradle\\caches\\transforms-2\\files-2.1\\7df26908078c74ff4eeaf46e7b6b476c\\appcompat-1.0.0\\res\\drawable-mdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\FeedME\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_five_nine_pizza.png.flat",
+        "source": "D:\\FeedME\\app\\src\\main\\res\\drawable-xhdpi\\five_nine_pizza.png"
     },
     {
         "merged": "D:\\FeedME\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",

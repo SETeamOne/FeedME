@@ -1066,10 +1066,14 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable domino_pizza
 drawable explore
 drawable explore_btn_bg
 drawable favorite
+drawable five_nine_pizza
 drawable fork
+drawable goobne
+drawable gosomi
 drawable grade1_pizza
 drawable grade2_burger
 drawable grade3_spaghetti
@@ -1104,6 +1108,7 @@ drawable login_et_bg
 drawable menu
 drawable mtrl_snackbar_background
 drawable mtrl_tabs_default_indicator
+drawable naegadalg
 drawable navigation_empty_icon
 drawable notification_action_background
 drawable notification_bg
@@ -1210,6 +1215,7 @@ id design_navigation_view
 id dimensions
 id direct
 id disableHome
+id domino
 id edit_profile
 id edit_query
 id end
@@ -1230,11 +1236,14 @@ id fill
 id fill_horizontal
 id fill_vertical
 id filled
+id five_nine_pizza
 id fixed
 id food_button
 id forever
 id ghost_view
 id gone
+id goobne
+id gosomi
 id group_divider
 id groups
 id home
@@ -1268,7 +1277,7 @@ id list_item
 id masked
 id media_actions
 id menuFragment
-id menu_text
+id menu_header
 id message
 id middle
 id mini
@@ -1280,6 +1289,7 @@ id msg4
 id mtrl_child_content_container
 id mtrl_internal_children_alpha_tag
 id multiply
+id naegadalg
 id nav_controller_view_tag
 id nav_graph
 id nav_host_fragment

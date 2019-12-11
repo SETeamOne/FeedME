@@ -12,7 +12,6 @@ import androidx.fragment.app.Fragment;
 
 
 public class MenuFragment extends Fragment {
-    private TextView mtv;
 
     @Nullable
     @Override
@@ -24,7 +23,7 @@ public class MenuFragment extends Fragment {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        mtv = getActivity().findViewById(R.id.menu_text);
+
     }
 
 }

@@ -1,4 +1,4 @@
-#Wed Dec 11 01:29:36 KST 2019
+#Wed Dec 11 02:59:09 KST 2019
 base.0=D\:\\FeedME\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

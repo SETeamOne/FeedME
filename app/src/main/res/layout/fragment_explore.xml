@@ -1,29 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_marginTop="0dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="125dp"
         android:background="@color/yellow"
         android:orientation="horizontal">
 
         <SearchView
+            android:layout_marginTop="9dp"
+            android:layout_gravity="center_vertical"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_height="70dp">
 
         </SearchView>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:layout_width="350dp"
-            android:layout_height="50dp">
+            android:layout_marginTop="35dp"
+            android:layout_width="290dp"
+            android:layout_height="70dp">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
-                android:layout_height="30dp"
+                android:layout_height="40dp"
                 android:background="@color/white"
+                android:fontFamily="@font/msyh"
                 android:hint="  Search" />
         </com.google.android.material.textfield.TextInputLayout>
 

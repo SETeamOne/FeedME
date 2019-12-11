@@ -1,6 +1,7 @@
 package com.example.feedme;
 
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.util.SparseArray;
@@ -8,6 +9,7 @@ import android.util.SparseIntArray;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.WindowManager;
 import android.view.animation.AccelerateInterpolator;
 import android.view.animation.AlphaAnimation;
 import android.view.animation.Animation;
@@ -24,7 +26,9 @@ import com.flipboard.bottomsheet.BottomSheetLayout;
 
 import java.text.NumberFormat;
 import java.util.ArrayList;
+import java.util.Objects;
 
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -52,12 +56,16 @@ public class ShoppingCartActivity extends AppCompatActivity implements View.OnCl
     private NumberFormat nf;
     private Handler mHanlder;
     private Button btn_back;
+    @RequiresApi(api = Build.VERSION_CODES.KITKAT)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+            getWindow().addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+        }
         super.onCreate(savedInstanceState);
+        Objects.requireNonNull(getSupportActionBar()).hide();
         setContentView(R.layout.activity_shopping_cart);
         nf = NumberFormat.getCurrencyInstance();
-        nf.setMaximumFractionDigits(2);
         mHanlder = new Handler(getMainLooper());
         dataList = GoodsItem.getGoodsList();
         typeList = GoodsItem.getTypeList();
