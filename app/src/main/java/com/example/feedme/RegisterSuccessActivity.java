@@ -105,8 +105,7 @@ public class RegisterSuccessActivity extends AppCompatActivity {
             }
         };
         RequestHandler.getInstance(this).addToRequestQueue(stringRequest);
-        SharedPreferences mySharedPreferences= getSharedPreferences("user", Activity.MODE_PRIVATE);
-        id = sharedPreferences.getInt("id", 1);
+        id = sharedPreferences.getInt("id", 1) + 1;
     }
 
     private class ButtonListen implements View.OnClickListener {
