@@ -15,10 +15,12 @@
         android:id="@+id/btn_back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/home_btn2_bg"
+        android:background="@drawable/login_btn_bg"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="55dp"
+        android:layout_marginLeft="8dp"
         android:text="Back"
+        android:fontFamily="@font/arial"
         android:textColor="#aa000000"
         android:textAllCaps="false"
         android:textSize="12sp" />

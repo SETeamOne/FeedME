@@ -17,6 +17,6 @@ public final class R {
     public static final class dimen {
         private dimen() {}
 
-        public static final int bottomsheet_default_sheet_width = 0x7f06004d;
+        public static final int bottomsheet_default_sheet_width = 0x7f060050;
     }
 }

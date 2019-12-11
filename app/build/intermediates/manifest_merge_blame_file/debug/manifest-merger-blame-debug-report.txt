@@ -6,80 +6,83 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="16"
-8-->D:\FeedME\app\src\main\AndroidManifest.xml
+8-->D:\ding\KAIST\Courses\CS350 Introduction to Software Engineering\Project 3\Android\FeedME\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="28" />
-9-->D:\FeedME\app\src\main\AndroidManifest.xml
+9-->D:\ding\KAIST\Courses\CS350 Introduction to Software Engineering\Project 3\Android\FeedME\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->D:\FeedME\app\src\main\AndroidManifest.xml:4:5-67
-11-->D:\FeedME\app\src\main\AndroidManifest.xml:4:22-64
+11-->D:\ding\KAIST\Courses\CS350 Introduction to Software Engineering\Project 3\Android\FeedME\app\src\main\AndroidManifest.xml:4:5-67
+11-->D:\ding\KAIST\Courses\CS350 Introduction to Software Engineering\Project 3\Android\FeedME\app\src\main\AndroidManifest.xml:4:22-64
 12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-12-->D:\FeedME\app\src\main\AndroidManifest.xml:5:5-80
-12-->D:\FeedME\app\src\main\AndroidManifest.xml:5:22-77
+12-->D:\ding\KAIST\Courses\CS350 Introduction to Software Engineering\Project 3\Android\FeedME\app\src\main\AndroidManifest.xml:5:5-80
+12-->D:\ding\KAIST\Courses\CS350 Introduction to Software Engineering\Project 3\Android\FeedME\app\src\main\AndroidManifest.xml:5:22-77
 13
 14    <application
-14-->D:\FeedME\app\src\main\AndroidManifest.xml:6:5-28:19
+14-->D:\ding\KAIST\Courses\CS350 Introduction to Software Engineering\Project 3\Android\FeedME\app\src\main\AndroidManifest.xml:6:5-29:19
 15        android:allowBackup="true"
-15-->D:\FeedME\app\src\main\AndroidManifest.xml:7:13-39
+15-->D:\ding\KAIST\Courses\CS350 Introduction to Software Engineering\Project 3\Android\FeedME\app\src\main\AndroidManifest.xml:7:13-39
 16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-16-->[androidx.core:core:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\246153fc0686d4ff78c8961ca91329b7\core-1.0.0\AndroidManifest.xml:22:18-86
+16-->[androidx.core:core:1.1.0] C:\Users\10163\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:24:18-86
 17        android:debuggable="true"
 18        android:icon="@mipmap/ic_launcher"
-18-->D:\FeedME\app\src\main\AndroidManifest.xml:8:13-47
+18-->D:\ding\KAIST\Courses\CS350 Introduction to Software Engineering\Project 3\Android\FeedME\app\src\main\AndroidManifest.xml:8:13-47
 19        android:label="@string/app_name"
-19-->D:\FeedME\app\src\main\AndroidManifest.xml:9:13-45
+19-->D:\ding\KAIST\Courses\CS350 Introduction to Software Engineering\Project 3\Android\FeedME\app\src\main\AndroidManifest.xml:9:13-45
 20        android:networkSecurityConfig="@xml/network_security_config"
-20-->D:\FeedME\app\src\main\AndroidManifest.xml:13:13-73
+20-->D:\ding\KAIST\Courses\CS350 Introduction to Software Engineering\Project 3\Android\FeedME\app\src\main\AndroidManifest.xml:13:13-73
 21        android:roundIcon="@mipmap/ic_launcher_round"
-21-->D:\FeedME\app\src\main\AndroidManifest.xml:10:13-58
+21-->D:\ding\KAIST\Courses\CS350 Introduction to Software Engineering\Project 3\Android\FeedME\app\src\main\AndroidManifest.xml:10:13-58
 22        android:supportsRtl="true"
-22-->D:\FeedME\app\src\main\AndroidManifest.xml:11:13-39
+22-->D:\ding\KAIST\Courses\CS350 Introduction to Software Engineering\Project 3\Android\FeedME\app\src\main\AndroidManifest.xml:11:13-39
 23        android:testOnly="true"
 24        android:theme="@style/AppTheme" >
-24-->D:\FeedME\app\src\main\AndroidManifest.xml:12:13-44
-25        <activity android:name="com.example.feedme.EditProfileActivity" />
-25-->D:\FeedME\app\src\main\AndroidManifest.xml:15:9-56
-25-->D:\FeedME\app\src\main\AndroidManifest.xml:15:19-54
-26        <activity android:name="com.example.feedme.PaymentActivity" />
-26-->D:\FeedME\app\src\main\AndroidManifest.xml:16:9-52
-26-->D:\FeedME\app\src\main\AndroidManifest.xml:16:19-50
-27        <activity android:name="com.example.feedme.ShoppingCartActivity" />
-27-->D:\FeedME\app\src\main\AndroidManifest.xml:17:9-57
-27-->D:\FeedME\app\src\main\AndroidManifest.xml:17:19-55
-28        <activity android:name="com.example.feedme.NavigationActivity" />
-28-->D:\FeedME\app\src\main\AndroidManifest.xml:18:9-55
-28-->D:\FeedME\app\src\main\AndroidManifest.xml:18:19-53
-29        <activity android:name="com.example.feedme.RegisterActivity" />
-29-->D:\FeedME\app\src\main\AndroidManifest.xml:19:9-54
-29-->D:\FeedME\app\src\main\AndroidManifest.xml:19:19-51
-30        <activity android:name="com.example.feedme.LoginActivity" />
-30-->D:\FeedME\app\src\main\AndroidManifest.xml:20:9-51
-30-->D:\FeedME\app\src\main\AndroidManifest.xml:20:19-48
-31        <activity android:name="com.example.feedme.MainActivity" >
-31-->D:\FeedME\app\src\main\AndroidManifest.xml:21:9-27:20
-31-->D:\FeedME\app\src\main\AndroidManifest.xml:21:19-47
-32            <intent-filter>
-32-->D:\FeedME\app\src\main\AndroidManifest.xml:22:13-26:29
-33                <action android:name="android.intent.action.MAIN" />
-33-->D:\FeedME\app\src\main\AndroidManifest.xml:23:17-69
-33-->D:\FeedME\app\src\main\AndroidManifest.xml:23:25-66
-34
-35                <category android:name="android.intent.category.LAUNCHER" />
-35-->D:\FeedME\app\src\main\AndroidManifest.xml:25:17-77
-35-->D:\FeedME\app\src\main\AndroidManifest.xml:25:27-74
-36            </intent-filter>
-37        </activity>
-38
-39        <provider
-39-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\6fbf654d3db04d7d9e48eb73ccf59f45\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
-40            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-40-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\6fbf654d3db04d7d9e48eb73ccf59f45\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
-41            android:authorities="com.example.feedme.lifecycle-process"
-41-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\6fbf654d3db04d7d9e48eb73ccf59f45\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
-42            android:exported="false"
-42-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\6fbf654d3db04d7d9e48eb73ccf59f45\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
-43            android:multiprocess="true" />
-43-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\6fbf654d3db04d7d9e48eb73ccf59f45\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
-44    </application>
-45
-46</manifest>
+24-->D:\ding\KAIST\Courses\CS350 Introduction to Software Engineering\Project 3\Android\FeedME\app\src\main\AndroidManifest.xml:12:13-44
+25        <activity android:name="com.example.feedme.RegisterSuccessActivity" />
+25-->D:\ding\KAIST\Courses\CS350 Introduction to Software Engineering\Project 3\Android\FeedME\app\src\main\AndroidManifest.xml:15:9-61
+25-->D:\ding\KAIST\Courses\CS350 Introduction to Software Engineering\Project 3\Android\FeedME\app\src\main\AndroidManifest.xml:15:19-58
+26        <activity android:name="com.example.feedme.EditProfileActivity" />
+26-->D:\ding\KAIST\Courses\CS350 Introduction to Software Engineering\Project 3\Android\FeedME\app\src\main\AndroidManifest.xml:16:9-56
+26-->D:\ding\KAIST\Courses\CS350 Introduction to Software Engineering\Project 3\Android\FeedME\app\src\main\AndroidManifest.xml:16:19-54
+27        <activity android:name="com.example.feedme.PaymentActivity" />
+27-->D:\ding\KAIST\Courses\CS350 Introduction to Software Engineering\Project 3\Android\FeedME\app\src\main\AndroidManifest.xml:17:9-52
+27-->D:\ding\KAIST\Courses\CS350 Introduction to Software Engineering\Project 3\Android\FeedME\app\src\main\AndroidManifest.xml:17:19-50
+28        <activity android:name="com.example.feedme.ShoppingCartActivity" />
+28-->D:\ding\KAIST\Courses\CS350 Introduction to Software Engineering\Project 3\Android\FeedME\app\src\main\AndroidManifest.xml:18:9-57
+28-->D:\ding\KAIST\Courses\CS350 Introduction to Software Engineering\Project 3\Android\FeedME\app\src\main\AndroidManifest.xml:18:19-55
+29        <activity android:name="com.example.feedme.NavigationActivity" />
+29-->D:\ding\KAIST\Courses\CS350 Introduction to Software Engineering\Project 3\Android\FeedME\app\src\main\AndroidManifest.xml:19:9-55
+29-->D:\ding\KAIST\Courses\CS350 Introduction to Software Engineering\Project 3\Android\FeedME\app\src\main\AndroidManifest.xml:19:19-53
+30        <activity android:name="com.example.feedme.RegisterActivity" />
+30-->D:\ding\KAIST\Courses\CS350 Introduction to Software Engineering\Project 3\Android\FeedME\app\src\main\AndroidManifest.xml:20:9-54
+30-->D:\ding\KAIST\Courses\CS350 Introduction to Software Engineering\Project 3\Android\FeedME\app\src\main\AndroidManifest.xml:20:19-51
+31        <activity android:name="com.example.feedme.LoginActivity" />
+31-->D:\ding\KAIST\Courses\CS350 Introduction to Software Engineering\Project 3\Android\FeedME\app\src\main\AndroidManifest.xml:21:9-51
+31-->D:\ding\KAIST\Courses\CS350 Introduction to Software Engineering\Project 3\Android\FeedME\app\src\main\AndroidManifest.xml:21:19-48
+32        <activity android:name="com.example.feedme.MainActivity" >
+32-->D:\ding\KAIST\Courses\CS350 Introduction to Software Engineering\Project 3\Android\FeedME\app\src\main\AndroidManifest.xml:22:9-28:20
+32-->D:\ding\KAIST\Courses\CS350 Introduction to Software Engineering\Project 3\Android\FeedME\app\src\main\AndroidManifest.xml:22:19-47
+33            <intent-filter>
+33-->D:\ding\KAIST\Courses\CS350 Introduction to Software Engineering\Project 3\Android\FeedME\app\src\main\AndroidManifest.xml:23:13-27:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->D:\ding\KAIST\Courses\CS350 Introduction to Software Engineering\Project 3\Android\FeedME\app\src\main\AndroidManifest.xml:24:17-69
+34-->D:\ding\KAIST\Courses\CS350 Introduction to Software Engineering\Project 3\Android\FeedME\app\src\main\AndroidManifest.xml:24:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->D:\ding\KAIST\Courses\CS350 Introduction to Software Engineering\Project 3\Android\FeedME\app\src\main\AndroidManifest.xml:26:17-77
+36-->D:\ding\KAIST\Courses\CS350 Introduction to Software Engineering\Project 3\Android\FeedME\app\src\main\AndroidManifest.xml:26:27-74
+37            </intent-filter>
+38        </activity>
+39
+40        <provider
+40-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\10163\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+41            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+41-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\10163\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
+42            android:authorities="com.example.feedme.lifecycle-process"
+42-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\10163\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+43            android:exported="false"
+43-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\10163\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+44            android:multiprocess="true" />
+44-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\10163\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+45    </application>
+46
+47</manifest>

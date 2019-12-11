@@ -116,10 +116,39 @@
 
     </RelativeLayout>
 
+    <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id = "@+id/radioGroup">
+        <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arial"
+                android:layout_marginLeft="18dp"
+                android:textSize="12sp"
+                android:text="Student"
+                android:id = "@+id/radioButtonS"/>
+        <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arial"
+                android:textSize="12sp"
+                android:text="Restaurant"
+                android:id = "@+id/radioButtonR"/>
+        <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arial"
+                android:textSize="12sp"
+                android:text="Delivery Staff"
+                android:id = "@+id/radioButtonD"/>
+    </RadioGroup>
+
     <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:layout_marginTop="30dp">
+            android:layout_marginTop="20dp">
 
         <Button
                 android:id="@+id/btn_register"
@@ -147,5 +176,15 @@
                 android:background="@drawable/login_btn_bg"/>
 
     </RelativeLayout>
+
+    <TextView
+            android:layout_marginLeft="18dp"
+            android:text="Tips:\nPassword should have:\n(1) 8 ~ 16 Bits\n(2) Uppercase and Lowercase Letters\n(3) Number\n(4) Special Character"
+            android:layout_width="match_parent"
+            android:textSize="9sp"
+            android:textColor="#999999"
+            android:fontFamily="@font/arial"
+            android:layout_height="wrap_content"
+            android:id="@+id/pwd_format_tip"/>
 
 </LinearLayout>

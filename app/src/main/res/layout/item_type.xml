@@ -9,7 +9,7 @@
         android:layout_centerInParent="true"
         android:padding="5dp"
         android:id="@+id/type"
-        android:text="种类1">
+        android:text="type1">
     </TextView>
     <TextView android:gravity="center"
         android:id="@+id/tvCount"

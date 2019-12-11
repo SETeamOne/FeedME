@@ -5,10 +5,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.ProgressBar;
-import android.widget.Toast;
+import android.widget.*;
 
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
@@ -43,7 +40,6 @@ public class LoginActivity extends AppCompatActivity {
         mBtn_Cancel = findViewById(R.id.btn_cancel);
         mBtn_Login.setOnClickListener(new ButtonListener());
         mBtn_Cancel.setOnClickListener(new ButtonListener());
-
         et_userId = findViewById(R.id.et_userId);
         et_password = findViewById(R.id.et_password);
 
@@ -73,12 +69,8 @@ public class LoginActivity extends AppCompatActivity {
                                                 obj.getString("username"),
                                                 obj.getString("email") );
 
-                                Toast.makeText(
-                                        getApplicationContext(),
-                                        "User login successful",
-                                        Toast.LENGTH_LONG ).show();
                                 startActivity(new Intent(LoginActivity.this, NavigationActivity.class));
-                                //finish();
+                                finish();
                             }else{
                                 Toast.makeText(
                                         getApplicationContext(),
