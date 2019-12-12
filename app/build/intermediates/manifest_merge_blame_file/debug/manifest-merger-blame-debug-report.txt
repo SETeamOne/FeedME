@@ -22,7 +22,7 @@
 15        android:allowBackup="true"
 15-->D:\ding\KAIST\Courses\CS350 Introduction to Software Engineering\Project 3\Android\FeedME\app\src\main\AndroidManifest.xml:7:13-39
 16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-16-->[androidx.core:core:1.1.0] C:\Users\10163\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:24:18-86
+16-->[androidx.core:core:1.1.0] C:\Users\10163\.gradle\caches\transforms-2\files-2.1\b854126f1e2e8b8c8fe1d11e9d16ff09\core-1.1.0\AndroidManifest.xml:24:18-86
 17        android:debuggable="true"
 18        android:icon="@mipmap/ic_launcher"
 18-->D:\ding\KAIST\Courses\CS350 Introduction to Software Engineering\Project 3\Android\FeedME\app\src\main\AndroidManifest.xml:8:13-47
@@ -74,15 +74,15 @@
 38        </activity>
 39
 40        <provider
-40-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\10163\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+40-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\10163\.gradle\caches\transforms-2\files-2.1\889cb510ab4dcb2e663b1afe20bf0caa\lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
 41            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-41-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\10163\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
+41-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\10163\.gradle\caches\transforms-2\files-2.1\889cb510ab4dcb2e663b1afe20bf0caa\lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
 42            android:authorities="com.example.feedme.lifecycle-process"
-42-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\10163\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+42-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\10163\.gradle\caches\transforms-2\files-2.1\889cb510ab4dcb2e663b1afe20bf0caa\lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
 43            android:exported="false"
-43-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\10163\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+43-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\10163\.gradle\caches\transforms-2\files-2.1\889cb510ab4dcb2e663b1afe20bf0caa\lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
 44            android:multiprocess="true" />
-44-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\10163\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+44-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\10163\.gradle\caches\transforms-2\files-2.1\889cb510ab4dcb2e663b1afe20bf0caa\lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
 45    </application>
 46
 47</manifest>

@@ -4,7 +4,7 @@
             "outputFile": "D:\\ding\\KAIST\\Courses\\CS350 Introduction to Software Engineering\\Project 3\\Android\\FeedME\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\10163\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\10163\\.gradle\\caches\\transforms-2\\files-2.1\\8430bff716938df2affae816972c8958\\appcompat-1.1.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -21,24 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\10163\\.gradle\\caches\\transforms-2\\files-2.1\\8f1126b18fbcecdfd2f3efbc29a7d37b\\jetified-bottomsheet-core-1.5.1\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,106",
-                        "endColumns": "50,63",
-                        "endOffsets": "101,165"
-                    },
-                    "to": {
-                        "startLines": "2,11",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,662",
-                        "endColumns": "50,63",
-                        "endOffsets": "101,721"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\10163\\.gradle\\caches\\transforms-2\\files-2.1\\c7eb9cd3508ac3959447c14fd76c9fb9\\material-1.0.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\10163\\.gradle\\caches\\transforms-2\\files-2.1\\27ee9ab73c025a0fc5ed22fadcd86019\\material-1.0.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,10,11,12",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -54,6 +37,23 @@
                         "endLines": "12,13,14,15,16,17,19,20,21,25",
                         "endColumns": "59,69,70,71,57,57,10,63,62,10",
                         "endOffsets": "781,851,922,994,1052,1110,1219,1283,1346,1518"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\10163\\.gradle\\caches\\transforms-2\\files-2.1\\c5a9767cb02b34219927c2a686f9beff\\jetified-bottomsheet-core-1.5.1\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,106",
+                        "endColumns": "50,63",
+                        "endOffsets": "101,165"
+                    },
+                    "to": {
+                        "startLines": "2,11",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,662",
+                        "endColumns": "50,63",
+                        "endOffsets": "101,721"
                     }
                 }
             ]

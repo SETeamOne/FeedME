@@ -4,24 +4,7 @@
             "outputFile": "D:\\ding\\KAIST\\Courses\\CS350 Introduction to Software Engineering\\Project 3\\Android\\FeedME\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ja\\values-ja.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\10163\\.gradle\\caches\\transforms-2\\files-2.1\\e9dab9c67c1ee3668e0bbf86c6d8cbd8\\core-1.1.0\\res\\values-ja\\values-ja.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "32",
-                        "startColumns": "4",
-                        "startOffsets": "2978",
-                        "endColumns": "100",
-                        "endOffsets": "3074"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\10163\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\values-ja\\values-ja.xml",
+                    "source": "C:\\Users\\10163\\.gradle\\caches\\transforms-2\\files-2.1\\8430bff716938df2affae816972c8958\\appcompat-1.1.0\\res\\values-ja\\values-ja.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\10163\\.gradle\\caches\\transforms-2\\files-2.1\\68b1fc339a8958ff89e11c6fb691a211\\jetified-navigation-ui-2.1.0\\res\\values-ja\\values-ja.xml",
+                    "source": "C:\\Users\\10163\\.gradle\\caches\\transforms-2\\files-2.1\\b854126f1e2e8b8c8fe1d11e9d16ff09\\core-1.1.0\\res\\values-ja\\values-ja.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "32",
+                        "startColumns": "4",
+                        "startOffsets": "2978",
+                        "endColumns": "100",
+                        "endOffsets": "3074"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\10163\\.gradle\\caches\\transforms-2\\files-2.1\\6eaf6a95c169470d6aa17ee1cf4d161a\\jetified-navigation-ui-2.1.0\\res\\values-ja\\values-ja.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
