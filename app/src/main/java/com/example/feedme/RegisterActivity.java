@@ -73,7 +73,14 @@ public class RegisterActivity extends AppCompatActivity {
         Pattern pattern_pwd = Pattern.compile(regex_pwd);
         Matcher matcher_pwd = pattern_pwd.matcher(password);
 
-        if(password.length() < 8 || password.length() > 16)
+        if(username.length() == 0)
+        {
+            Toast.makeText(
+                    getApplicationContext(),
+                    "Username shouldn't be blank",
+                    Toast.LENGTH_LONG ).show();
+        }
+        else if(password.length() < 8 || password.length() > 16)
         {
             Toast.makeText(
                     getApplicationContext(),
@@ -194,4 +201,3 @@ public class RegisterActivity extends AppCompatActivity {
 
 
 }
-
